@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<!-- no IE support -->
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/jpg" href="/images/pp2.jpg"/>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel='stylesheet' href='/stylesheets/style-mobile.css' />
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900" rel="stylesheet"> -->
+  <script src="/javascripts/scripts.js"></script>
+</head>
+
+<body onload="rememberBG();">
+  <div id="main-header">
+    
+    <nav class="navbar">
+      <hr class="dori">
+      <div class="left-i">
+          <div class="menu-image">
+              <img src="/images/hanger.png" alt="Hanger">
+              <a class="navlink" href="#skills" reveal="skills">&#160;Skills&#160;</a>
+          </div>
+          <div class="menu-image">
+              <img src="/images/hanger.png" alt="Hanger">
+              <a class="navlink" href="#works" reveal="works">&#160;Works&#160;</a>
+          </div>
+      </div>
+      <div class="right-i">
+          <div class="menu-image">
+              <img src="/images/hanger.png" alt="Hanger">
+              <a class="navlink" href="/resume/Resume.V2.pdf" target="_blank">&#160;Resume&#160;</a>
+          </div>
+          <div class="menu-image">
+              <img src="/images/hanger.png" alt="Hanger">
+              <a class="navlink" reveal="contact" href="#contact">Contact</a>
+          </div>
+      </div>
+    </nav>
+    <div class="image-container">
+      <a href="#">
+        <!-- <img src="/images/portfolio.jpg" alt="Abdullah Al Mahmud" id="image-circle"> -->
+        <div class="diamond">
+            <div class="image">
+              <img src="/images/pp2.jpg"
+               alt="Abdullah Al Mahmud" width="320" height="316" />
+            </div>
+        </div>
+      </a>
+    </div>
+    <h1>Hi, I am
+      <strong class="big">Mahmud</strong>
+    </h1>
+    <p id="tagline">
+      A Freelance Developer, Passionate Programmer, Linux Geek
+    </p>
+    <p id="description">
+      After admitting Khulna University as a B.Sc. student, I have touched and learned different areas of technology. I enjoy each
+      aspect, and love building sites &amp; mobile apps from start to finish. Living, learning, &amp; leveling up at a time.
+    </p>
+  </div>
+  <section id="mobile_nav">
+    <!-- TODO : Mobile Navigation -->
+  </section>
+
+  <div class="mobile-menu">
+    <select name="mobile_menu" id="mobile_menu" onchange="mobile_menu();">
+        <option value="#skills">Skills</option>
+        <option value="#works">Works</option>
+        <option value="#resume">Resume</option>
+        <option value="#contact">Contact</option>
+    </select>
+  </div>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="container">
+        <div class="pl">
+            <div class="pbar grid-item">
+                <div class="progress" style="width: 85%;">
+                    <div class="lang">C</div>
+                </div>
+                <span class="percentage">85%</span>
+            </div>
+            <div class="pbar grid-item">
+                <div class="progress" style="width: 85%;">
+                    <div class="lang">C++</div>
+                </div>
+                <span class="percentage">85%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 80%;">
+                    <div class="lang">Javascript</div>
+                </div>
+                <span class="percentage">80%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 80%;">
+                    <div class="lang">Php</div>
+                </div>
+                <span class="percentage">80%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 75%;">
+                    <div class="lang">Python</div>
+                </div>
+                <span class="percentage">75%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 75%;">
+                    <div class="lang">Java</div>
+                </div>
+                <span class="percentage">75%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 75%;">
+                    <div class="lang">SQL</div>
+                </div>
+                <span class="percentage">75%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 75%;">
+                    <div class="lang">Bash</div>
+                </div>
+                <span class="percentage">75%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 75%;">
+                    <div class="lang">Git</div>
+                </div>
+                <span class="percentage">75%</span>
+            </div>
+          </div>
+        <div class="others grid-item">
+            <div class="pbar">
+                <div class="progress" style="width: 85%;">
+                    <div class="lang">Html</div>
+                </div>
+                <span class="percentage">85%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 80%;">
+                    <div class="lang">CSS</div>
+                </div>
+                <span class="percentage">80%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 75%;">
+                    <div class="lang">Jquery</div>
+                </div>
+                <span class="percentage">75%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 88%;">
+                    <div class="lang">Wordpress</div>
+                </div>
+                <span class="percentage">90%</span>
+            </div>
+            
+            <div class="pbar">
+                <div class="progress" style="width: 65%;">
+                    <div class="lang">Node.js</div>
+                </div>
+                <span class="percentage">65%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 65%;">
+                    <div class="lang">Express.js</div>
+                </div>
+                <span class="percentage">65%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 65%;">
+                    <div class="lang">Pug</div>
+                </div>
+                <span class="percentage">65%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 40%;">
+                    <div class="lang">React</div>
+                </div>
+                <span class="percentage">40%</span>
+            </div>
+            <div class="pbar">
+                <div class="progress" style="width: 35%;">
+                    <div class="lang">Gimp</div>
+                </div>
+                <span class="percentage">35%</span>
+            </div>
+        </div>
+    </div>
+
+    <section id="fav">
+        <h2>Favourites &amp; Interests</h2>
+        <ul>
+          <li>Linux Operating System</li>
+          <li>Sysadmin</li>
+          <li>Devops</li>
+        </ul>
+      </section>
+  </section>
+
+  <section id="works">
+      <h2 >Academic</h2>
+      <div class="works-container">
+          <div class="work-row">
+            <div class="work">
+                <div class="thumbnail" title="A simple web server to serve GET, POST request. Written in python3. Able to execute python code and php code. More on Github.">
+                    <a href="https://github.com/astinaam/Server">
+                        Simple Web Server
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="A Ecommerce site for showroom. Online Shop/Showroom management system. Backend : PHP, Database : mysql. More on Github.">
+                    <a href="https://github.com/astinaam/osms">
+                        Unitech Online Shop management System
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="This is game developed in unity for Advance programming lab in First year Second term">
+                    <a href="https://drive.google.com/file/d/0B_vckWq-mepSYnhIRnBMM1BtOTA/view">
+                        Reckless - A Flying Simulator Game
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                    <div class="thumbnail" title="Simple standard calculator Android App. Made with Android studio. Language : Java. Developed this in the first year. Not an course project.">
+                        <a href="https://drive.google.com/open?id=0B_vckWq-mepSY1Y0aUFUTGNYVTg">
+                            Simple Calculator Android App
+                        </a>
+                    </div>
+                </div>
+          </div>
+      </div>
+      <h2 >Others</h2>
+      <div class="works-container">
+        <div class="work-row">
+            <div class="work">
+                <div class="thumbnail" title="Did this earlier of my start!">
+                    <a href="http://bannerpick.com/">
+                        <img src="/images/logos/bannerpick_logo.png" alt="bannerpick" width="250" height="45">
+                    </a> 
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="Did some major edits!">
+                    <a href="http://cpdfashion.com/">
+                        <img src="/images/logos/carpediem_logo.png" alt="Carpediem" width="196" height="45">
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="Did some major edits!">
+                    <a href="http://www.davepetrovic.com/">
+                        <img src="/images/logos/dave_petrovic_logo.png" alt="Dave Petrovic" width="182" height="45">
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="Mimiced Google and Yandex search page and added a virtual keyboard!">
+                    <a href="http://dimension144.com/ChapterTWO">
+                        <img src="/images/logos/dimesion144_logo.png" alt="Dimesion144" >
+                    </a>
+                    
+                </div>
+            </div>
+            <!-- <div class="work">
+                <div class="thumbnail">
+                    <img src="/images/yellow.png" alt="Work1" width="256" height="256">
+                </div>
+                <div class="work-details">
+                    <h4>Work Title 4</h4>
+                    <p class="work-description">
+                        This is a simple work description. Should not be more than 3 lines.
+                    </p>
+                </div>
+            </div> -->
+        </div>
+        <div class="work-row">
+                <div class="work">
+                    <div class="thumbnail" title="Did the whole website!">
+                        <a href="https://worldchangingfitness.com/">
+                            <img src="/images/logos/world_changing_fitness_logo.png" alt="World Changing Fitness" width="256">
+                        </a> 
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="thumbnail" title="Did the shop part and fixed, edited some major edits!">
+                        <a href="http://moniqueloveless.com/">
+                            <img src="/images/logos/monquelogo.png" alt="moniqueloveless" width="256">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="thumbnail" title="Did almost the whole website features!">
+                        <a href="http://www.kppcorporate.com/">
+                            <img src="/images/logos/kpp_logo.png" alt="KPP Corporate" width="256">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="thumbnail" title="Did the whole website!">
+                        <a href="https://sturgiscrossfit.com/">
+                            <img src="/images/logos/sturgiscrossfit_logo.png" alt="Sturgis Crossfit" >
+                        </a>
+                        
+                    </div>
+                </div>
+        </div>
+        <div class="work-row">
+            <div class="work">
+                <div class="thumbnail" title="Did the major part of the website!">
+                    <a href="https://www.jensilbert.com/">
+                        <img src="/images/logos/jensilbert_logo.png" alt="Jensilbert" width="256">
+                    </a> 
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="Did the major part!">
+                    <a href="https://www.getmehired.co.uk/">
+                        <img src="/images/logos/getmehired_logo.png" alt="Get Me Hired" width="256">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="Did the whoile website!">
+                    <a href="http://www.knotnormaltv.com/">
+                        <img src="/images/logos/knot_normal_logo.png" alt="Knot Normal TV Show" width="256">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="Did some edits!">
+                    <a href="https://www.omatictech.com/">
+                        <img src="/images/logos/omatictech_logo.png" alt="Omatictech" width="256">
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="work-row">
+                <div class="work">
+                    <div class="thumbnail" title="Did the whole website!">
+                        <a href="http://zoifertility.com/">
+                            <img src="/images/logos/zoi_logo.png" alt="ZOI Fertitlity" width="256">
+                        </a> 
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="thumbnail" title="Did this whole page!">
+                        <a href="https://wordpackmedia.com/marketing-playbook/ ">
+                            <img src="/images/logos/wordpackmedia_logo.jpg" alt="Word Pack Media Marketing Playbook" width="256">
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                        <div class="thumbnail" title="Did the whole website!">
+                            <a href="http://www.handmidland.com/">
+                                <img src="/images/logos/handmidlang_logo.png" alt="HandMidLand" width="256">
+                            </a> 
+                        </div>
+                </div>
+                <div class="work">
+                    <div class="thumbnail" title="Did the whole website!">
+                        <!-- TODO : NEED TO UPDATE WHEN IT WILL BE LIVE -->
+                        <a href="https://www.instagram.com/cycautomotive/">
+                            <img src="/images/logos/CYC_LOGOwhite.png" alt="CYC Automotive" width="256">
+                        </a>
+                    </div>
+                </div>
+                
+        </div>
+        <div class="work-row">
+            <div class="work">
+                <div class="thumbnail" title="Did almost all the features!">
+                    <a href="http://www.planethappy.org/">
+                        <img src="/images/logos/planet-happy-logo.png" alt="Planet Happy" width="256">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="Associated in marketing!">
+                    <a href="https://www.funnyart.se/">
+                        <img src="/images/logos/funnyart_logo.png" alt="Funny Art" width="256">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="Associated in marketing!">
+                    <a href="https://taxbooster.com/">
+                        <img src="/images/logos/TaxBoosterOfficialLogoNOBG.png" alt="Tax Booster" width="256">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                    <div class="thumbnail" title="Did the whole website!">
+                        <a href="https://portraitagents.com/">
+                            <img src="/images/logos/portrait_agents_logo.png" style="background-color: white;" alt="Portrait Agents" width="256">
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <div class="work-row">
+            <div class="work">
+                <div class="thumbnail" title="Did the whole website!">
+                    <a href="http://www.donaldbakers.com/">
+                        <img src="/images/logos/donald_bakers_logo.png" alt="Donald Bakers" width="256">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="Associated in marketing!">
+                    <a href="https://www.heavymetalmerchant.com/">
+                        <img src="/images/logos/heavymetal_logo.png" alt="HeavyMetal" width="256">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="Associated in marketing!">
+                    <a href="https://testdrivefitness.com/">
+                        <img src="/images/logos/testdrivefitness_logo.png" alt="Test Drive Fitness" width="256">
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="thumbnail" title="Associated in marketing!">
+                    <a href="http://www.thrivelgx.com/">
+                        <img src="/images/logos/thrivelgx_logo.png" alt="Thrive" width="256">
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- <div class="diclaimer">
+          <p>Website contents are subject to change according to website owner&apos;s interest</p>
+      </div> -->
+  </section>
+
+  <section id="contact">
+      <div class="contact-container">
+          <h2>Say Hello</h2>
+          <div class="disclaimer">
+              <p>
+                  I would like to hear from you. I am waiting for your response.
+              </p>
+          </div>
+          <form id="contact-form">
+            <div class="contact-element">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="contact-element">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="contact-element">
+                <label for="message">Message
+                </label>
+                <textarea name="message" id="message" ></textarea>
+            </div>
+            <div class="contact-element">
+                <button type="submit">SUBMIT</button>
+            </div>
+          </form>
+      </div>
+  </section>
+
+  
+  
+  <button onclick="backtotop();" id="backtotop">
+    <img src="/images/top2.png" alt="Back To Top">
+  </button>
+  
+  
+  
+</body>
+<footer>
+    <div class="contact-link">
+        <a href="https://www.facebook.com/almahmud20" title="Facebook Profile">
+            <img src="/images/contact/fb.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/astinaam/" title="Instagram Profile">
+            <img src="/images/contact/inst.png" alt="Instagram">
+        </a>
+        <a href="https://twitter.com/astinaam" title="Twitter Profile">
+            <img src="/images/contact/tw.png" alt="Twitter">
+        </a>
+        <a href="https://www.quora.com/profile/Abdullah-Al-Mahmud-12" title="Quora Profile">
+            <img src="/images/contact/Q.png" alt="Quora">
+        </a>
+        <a href="https://plus.google.com/u/1/+AbdullahAlMahmudcseku" title="Google Plus Profile">
+            <img src="/images/contact/gp.png" alt="Google Plus">
+        </a>
+        <a href="https://github.com/astinaam/" title="Github Profile">
+            <img src="/images/contact/github.png" alt="Github">
+        </a>
+        <a href="http://codeforces.com/profile/astinaam" title="Codeforces Profile">
+            <img src="/images/contact/cf.png" alt="Codeforces">
+        </a>
+        <a class="codechef" href="https://www.codechef.com/users/tut_tut" title="Codechef Profile">
+            <img src="/images/contact/codechef.png" alt="Codechef">
+        </a>
+        <a class="csacademy" href="https://csacademy.com/user/astinaam" title="CSAcademy Profile">
+            <img src="/images/contact/ca.png" alt="CSAcademy">
+        </a>
+        <a class="atcoder" href="http://atcoder.jp/user/tut_tut" title="Atcoder Profile">
+            <img src="/images/contact/atcoder.png" alt="Atcoder">
+        </a>
+        <a class="uva" href="https://uhunt.onlinejudge.org/id/715802" title="Uva Uhunt Profile">
+            <img src="/images/contact/uva.png" alt="Uva">
+        </a>
+    </div>
+    
+    <p style="text-align: center;">Feel free to contact anywhere!</p>
+    <div id="custom-bg">
+        <select name="custom_bg" id="custom_bg" onchange="changeBackground();">
+            <option value="#4682B4">Sky Blue</option>
+            <option value="#2b5876">Sea Blue</option>
+            <option value="#2193b0">Sexy Blue</option>
+            <option value="#292E49">Royal Blue</option>
+            <option value="#314755">Nimvelo</option>
+            <option value="darkorchid">Dark Orchid</option>
+            <option value="#753a88">Purple Love</option>
+            <option value="#ffdde1">Piggy Pink</option>
+        </select>
+    </div>
+</footer>
+
+</html>

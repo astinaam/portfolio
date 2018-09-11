@@ -1,0 +1,73 @@
+@media (max-width:999px)
+{
+    .diamond .image{
+        width: 200px;
+        height: 200px;
+    }
+
+    .diamond{
+        width: auto;
+        height: auto;
+        transform: rotate(45deg) translateY(0px) translateX(0px);
+    }
+
+    #description
+    {
+        max-width: 100%;
+    }
+
+
+    .mobile-menu
+    {
+        display: block;
+        text-align: center;
+        margin-top:30px;
+    }
+
+    select#mobile_menu{
+        padding: 8px;
+        font-family: monospace;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        background-color: black;
+        color:white;
+    }
+
+    #skills{
+        display: block;
+    }
+
+    .container{
+        display:grid;
+        grid-column-gap: 20px;
+        grid-template-columns: auto;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .contact-element textarea{
+        width: 300px;
+    }
+
+    .contact-element input{
+        width: 300px;
+    }
+
+    .works-container .work-row
+    {
+        text-align: center;
+    }
+
+    .work
+    {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:450px)
+{
+    .pbar{
+        width:300px;
+    }
+}

@@ -124,7 +124,8 @@ function rememberBG()
         {
             if(get == "resume")
             {
-                window.open("http://localhost:3001/resume/Resume.V2.pdf",'_blank');
+                
+window.open("http://localhost:3001/resume/resume.pdf",'_blank');
             }
             else{
                 hideAndReveal(get);

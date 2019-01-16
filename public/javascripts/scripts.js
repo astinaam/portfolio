@@ -125,7 +125,7 @@ function rememberBG()
             if(get == "resume")
             {
                 
-                window.open("/resume/resume.pdf",'_blank');
+                window.open("/resume/cv_(Abdullah-AL-Mahmud)_01790078815.pdf",'_blank');
             }
             else{
                 hideAndReveal(get);
